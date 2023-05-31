@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Marilyn Remigio</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Anybody:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<div class="nav-bar" id="navBar">
+			<a href="#" class="active">About</a>
+			<a href="#techstack">Tech Stack</a>
+			<a href="#projects">Projects</a>
+			<a href="#contact">Contact</a>
+			<a href="javascript:void(0);" class="icon" onclick="dropNav()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+		<script>
+			function dropNav() {
+				var x = document.getElementById("navBar")
+				if (x.className === "nav-bar") {
+					x.className += " responsive"
+				} else {
+					x.className = "nav-bar"
+				}
+			}
+		</script>
+	</header>
+	<section id="about">
+		<div class="about-container">
+			<div class="colA">
+				<img src="images/marilyn.png" alt="marilyn in a white shirt and jeans smiling"/>
+			</div>
+			<div class="colB">
+				<a href="https://www.linkedin.com/in/marilynremigio/" target="_blank">
+					<ion-icon name="logo-linkedin"></ion-icon>
+				</a>
+				<a href="https://github.com/marilynremigio" target="_blank">
+					<ion-icon name="logo-github"></ion-icon>
+				</a>
+			</div>
+			<div class="colC">
+				<h1>MARILYN<br/>REMIGIO</h1>
+				<h4>Full Stack Web Developer</h4><br/>
+				<p>I am a professional Hip Hop dancer turned Software Developer based out of San Diego, CA. Combining my passions for learning, organization, and creative problem-solving, I am eager to make a positive impact everywhere I go. </p>
+			</div>
+		</div>
+	</section>
+	<section id="techstack">
+		<h1>TECH <br/>STACK</h1>
+		<div class="tech-stack-container">
+				<!-- row 1 -->
+				<div class="tech-colA">
+					Languages
+				</div>
+				<div class="tech-colB">
+					Frameworks
+				</div>
+				<div class="tech-colC">
+					Testing
+				</div>
+				<!-- row 2 -->
+				<div class="tech-colA">
+					<svg id="html"
+						xmlns="http://www.w3.org/2000/svg" 
+						width="50" 
+						height="50" 
+						viewBox="0 0 24 24"
+					>
+						<path d="M5.08 0h1.082v1.069h.99V0h1.082v3.236H7.152V2.153h-.99v1.083H5.081V0Zm4.576 1.073h-.952V0h2.987v1.073h-.953v2.163H9.656V1.073ZM12.165 0h1.128l.694 1.137L14.68 0h1.128v3.236h-1.077V1.632l-.744 1.151h-.019l-.745-1.15v1.603h-1.058V0Zm4.181 0h1.083v2.167h1.52v1.07h-2.603V0Z"/>
+						<path fill-rule="evenodd" d="M5.046 22.072L3 4.717h18L18.953 22.07L11.99 24l-6.944-1.928Zm4.137-9.5l-.194-2.18h8.145l.19-2.128H6.664l.574 6.437h7.377l-.247 2.76l-2.374.642h-.002l-2.37-.64l-.152-1.697H7.332l.298 3.342l4.36 1.21l4.367-1.21l.532-5.964l.052-.571H9.183Z" clip-rule="evenodd"/>
+					</svg>
+					<svg id="javascript" 
+						xmlns="http://www.w3.org/2000/svg" 
+						width="55" 
+						height="55" 
+						viewBox="0 0 24 24"
+					>
+						<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+						<path d="m20 4l-2 14.5l-6 2l-6-2L4 4z"/>
+						<path d="M7.5 8h3v8l-2-1m8-7H14a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h1.423a.5.5 0 0 1 .495.57L15.5 15.5l-2 .5"/>
+						</g>
+					</svg>
+					<svg id="ruby"
+						xmlns="http://www.w3.org/2000/svg" 
+						width="45" 
+						height="45" 
+						viewBox="0 0 24 24">
+						<path fill="currentColor" d="M20.156.083c3.033.525 3.893 2.598 3.829 4.77L24 4.822L22.635 22.71L4.89 23.926h.016C3.433 23.864.15 23.729 0 19.139l1.645-3l2.819 6.586l.503 1.172l2.805-9.144l-.03.007l.016-.03l9.255 2.956l-1.396-5.431l-.99-3.9l8.82-.569l-.615-.51L16.5 2.114L20.159.073l-.003.01zM0 19.089zM5.13 5.073c3.561-3.533 8.157-5.621 9.922-3.84c1.762 1.777-.105 6.105-3.673 9.636c-3.563 3.532-8.103 5.734-9.864 3.957c-1.766-1.777.045-6.217 3.612-9.75l.003-.003z"/>
+					</svg>
+					<svg id="css"
+						xmlns="http://www.w3.org/2000/svg" 
+						width="50" 
+						height="50" 
+						viewBox="0 0 24 24"
+					>
+						<path fill="currentColor" d="M7.502 0h2.578v1.078h-1.5v1.078h1.5v1.078H7.502V0Zm3.093 0h2.579v.938h-1.5v.187h1.5v2.156h-2.579v-.984h1.5v-.188h-1.5V0Zm3.095 0h2.577v.938h-1.5v.187h1.5v2.156H13.69v-.984h1.5v-.188h-1.5V0Z"/>
+						<path fill="currentColor" fill-rule="evenodd" d="m11.991 24l-6.944-1.928L3 4.717h18L18.954 22.07L11.991 24ZM7.047 12.573l.191 2.128h7.377l-.247 2.76l-2.374.642h-.002l-2.37-.64l-.152-1.697H7.333l.298 3.342l4.36 1.21l4.367-1.21l.532-5.964l.052-.571l.384-4.309H6.664l.194 2.129h8.136l-.194 2.18H7.047Z" clip-rule="evenodd"/>
+					</svg>
+				</div>
+				<div class="tech-colB">
+					<svg id="react"
+						xmlns="http://www.w3.org/2000/svg" 
+						width="50" 
+						height="50" 
+						viewBox="0 0 24 24"
+						>
+						<path d="M24 11.689c0-1.59-1.991-3.097-5.044-4.031c.705-3.111.392-5.587-.988-6.38a2.145 2.145 0 0 0-1.096-.273v1.09c.225 0 .406.045.558.128c.665.382.954 1.834.729 3.703c-.054.46-.142.944-.25 1.438a23.706 23.706 0 0 0-3.106-.533a23.857 23.857 0 0 0-2.035-2.446c1.595-1.482 3.092-2.294 4.11-2.294V1c-1.346 0-3.107.959-4.888 2.622C10.21 1.97 8.448 1.02 7.103 1.02v1.09c1.013 0 2.515.808 4.11 2.28c-.685.72-1.37 1.536-2.021 2.441a22.844 22.844 0 0 0-3.111.538a14.683 14.683 0 0 1-.255-1.418c-.23-1.87.054-3.322.715-3.708c.146-.088.337-.128.562-.128v-1.09c-.41 0-.783.088-1.105.273c-1.375.793-1.683 3.263-.974 6.365C1.981 8.603 0 10.104 0 11.689c0 1.59 1.991 3.097 5.044 4.03c-.705 3.112-.392 5.588.988 6.38c.318.186.69.274 1.1.274c1.346 0 3.107-.959 4.888-2.622c1.78 1.653 3.541 2.602 4.887 2.602a2.18 2.18 0 0 0 1.105-.274c1.375-.792 1.683-3.262.974-6.364C22.019 14.781 24 13.274 24 11.689Zm-6.37-3.263a22.023 22.023 0 0 1-.66 1.932a26.444 26.444 0 0 0-1.345-2.319c.695.103 1.365.23 2.006.387Zm-2.24 5.21a25.94 25.94 0 0 1-1.179 1.869a25.453 25.453 0 0 1-4.412.005a25.457 25.457 0 0 1-2.201-3.806a26.064 26.064 0 0 1 2.192-3.82a25.455 25.455 0 0 1 4.411-.006c.406.582.803 1.204 1.184 1.86c.372.64.71 1.29 1.018 1.946a27.41 27.41 0 0 1-1.013 1.952ZM16.97 13c.264.655.49 1.311.675 1.947c-.64.157-1.316.289-2.015.391A27.044 27.044 0 0 0 16.97 13Zm-4.96 5.22c-.455-.47-.91-.993-1.36-1.566c.44.02.89.035 1.345.035c.46 0 .915-.01 1.36-.035c-.44.573-.895 1.096-1.345 1.566Zm-3.64-2.882a22.113 22.113 0 0 1-2.006-.386c.181-.631.406-1.282.66-1.932c.201.39.412.782.642 1.174c.23.391.464.773.704 1.144Zm3.615-10.18c.455.47.91.993 1.36 1.566c-.44-.02-.89-.035-1.345-.035c-.46 0-.915.01-1.36.035c.44-.573.895-1.096 1.345-1.566ZM8.365 8.04a27.02 27.02 0 0 0-1.34 2.333a20.96 20.96 0 0 1-.675-1.947c.64-.152 1.316-.284 2.015-.386Zm-4.427 6.124c-1.732-.738-2.852-1.707-2.852-2.475s1.12-1.742 2.852-2.475c.42-.181.88-.343 1.355-.494c.279.958.646 1.956 1.1 2.979a23.165 23.165 0 0 0-1.085 2.964a14.875 14.875 0 0 1-1.37-.499Zm2.632 6.99c-.665-.38-.954-1.834-.729-3.702c.054-.46.142-.945.25-1.439c.958.235 2.005.416 3.106.534a23.87 23.87 0 0 0 2.035 2.446c-1.595 1.482-3.092 2.294-4.11 2.294a1.167 1.167 0 0 1-.552-.132Zm11.604-3.727c.23 1.869-.054 3.322-.715 3.708c-.146.088-.337.127-.562.127c-1.013 0-2.515-.807-4.11-2.28a23.01 23.01 0 0 0 2.021-2.44a22.843 22.843 0 0 0 3.111-.538c.113.494.2.968.255 1.423Zm1.883-3.263c-.42.181-.88.343-1.355.494a23.482 23.482 0 0 0-1.1-2.979c.45-1.017.811-2.01 1.085-2.964a15.3 15.3 0 0 1 1.375.499c1.732.738 2.852 1.707 2.852 2.475c-.005.768-1.125 1.742-2.857 2.475Z"/>
+						<path d="M11.995 13.925a2.236 2.236 0 1 0 0-4.472a2.236 2.236 0 0 0 0 4.472Z"/>
+					</svg>
+					<svg id="rails"
+						xmlns="http://www.w3.org/2000/svg" 
+						width="50" 
+						height="50" 
+						viewBox="0 0 128 128">
+						<path d="M109.682 14.737c-12.206-6.023-24.708-6.636-37.508-2.111c-11.779 4.164-21.175 11.615-28.16 21.763C32.195 51.561 23.61 70.298 18.799 90.652c-2.464 10.417-4.06 21.466-3.631 32.224c.035.873.165 1.124.251 3.124h60.366c-.173-2-.287-1.416-.437-1.797a153.86 153.86 0 0 1-7.428-25.198c-2.498-12.251-3.806-24.729-1.226-37.093c3.611-17.313 13.48-29.805 30.117-36.283c9.424-3.667 18.369-2.624 26.214 4.262c.072.063.22.025.412.056l2.565-3.883c-4.94-4.703-10.368-8.389-16.32-11.327zM3.336 94.394c-.46 3.923-.89 7.596-1.34 11.451l11.132 1.336l2.039-11.893l-11.831-.894zm21.85-34.186l-10.471-4.097l-3.384 9.607l10.671 3.42c1.08-3.031 2.096-5.882 3.184-8.93zm49.419 53.659c3.575.266 7.157.449 11.103.679c-1.433-2.979-2.706-5.673-4.039-8.335c-.146-.289-.639-.568-.974-.573c-3.033-.044-6.068-.025-9.291-.025c.726 2.628 1.357 5.053 2.096 7.443c.111.361.707.782 1.105.811zM42.933 31.103l-7.955-5.268l-6.359 7.105l8.178 5.496l6.136-7.333zm25.334 53.369c-.013.321.276.832.558.959c2.865 1.288 5.76 2.515 8.912 3.873c-.131-2.492-.219-4.575-.368-6.654c-.027-.374-.203-.912-.48-1.066c-2.631-1.456-5.299-2.847-8.216-4.395c-.159 2.665-.321 4.972-.406 7.283zM65.91 12.3l-5.446-6.181l-7.499 3.898l5.455 6.644l7.49-4.361zm3.415 49.176c-.163.374.052 1.167.373 1.456c2.175 1.962 4.424 3.84 6.926 5.981c.573-2.4 1.113-4.539 1.571-6.693c.081-.383-.032-1.016-.298-1.23c-1.946-1.569-3.955-3.063-6.037-4.651c-.915 1.815-1.802 3.443-2.535 5.137zm12.45-52.424c2.78.075 5.563.042 8.499.042c-.293-2.044-.433-3.593-.782-5.092c-.104-.446-.775-1.04-1.228-1.078c-2.787-.226-5.585-.313-8.651-.459c.409 2.063.721 3.881 1.162 5.668c.093.379.647.909 1 .919zm3.385 35.675c.142-.266.178-.749.029-.981c-1.366-2.137-2.785-4.241-4.254-6.455l-4.76 4.372l6.582 7.294c.884-1.539 1.675-2.868 2.403-4.23zM90.295 30.2l2.843 5.281c4.449-2.438 4.875-3.32 3.3-6.834L90.295 30.2zm21.287-16.273c1.851 1.142 3.806 2.115 5.792 3.185l1.33-2.07c-2.422-1.771-4.76-3.484-7.413-5.426c-.104 1.104-.259 1.875-.219 2.637c.032.581.129 1.44.51 1.674zM109 30.646c2 .217 5 .424 7 .643v-2.718c-2-.438-5-.872-7-1.323v3.398z" clip-rule="evenodd"/>
+					</svg>
+				</div>
+				<div class="tech-colC">
+					<svg id="jest"
+						xmlns="http://www.w3.org/2000/svg" 
+						width="50" 
+						height="50" 
+						viewBox="0 0 32 32"
+						>
+						<path d="M29.667 15.76a4.155 4.155 0 0 0-3.104-4.015L30.547 0h-19.74l3.996 11.787a4.156 4.156 0 0 0-2.996 3.979c0 1.391.693 2.625 1.751 3.385a10.813 10.813 0 0 1-1.443 1.656a10.92 10.92 0 0 1-3.401 2.199c-1.115-.751-1.593-2.079-1.161-3.26c4.531-1.412 3.531-8.089-1.208-8.109a4.154 4.154 0 0 0-4.151 4.151c0 1.131.457 2.167 1.203 2.911c-.068.125-.131.261-.199.396c-.619 1.281-1.323 2.724-1.593 4.344c-.536 3.245.344 5.849 2.469 7.323a6.778 6.778 0 0 0 3.927 1.24c2.432 0 4.907-1.224 7.297-2.412c1.708-.839 3.468-1.719 5.197-2.145c.641-.156 1.308-.249 2.011-.355c1.427-.203 2.901-.416 4.224-1.187a5.966 5.966 0 0 0 2.911-4.12a6.144 6.144 0 0 0-.593-3.828c.401-.641.62-1.385.62-2.193zm-1.807 0a2.336 2.336 0 0 1-2.333 2.333c-2.209-.005-3.177-2.791-1.444-4.167l.005-.009c.079-.057.163-.115.24-.168c0 0 .016 0 .016-.009c.036-.021.072-.047.109-.068c.011 0 .016-.005.025-.005c.037-.021.084-.036.131-.057s.093-.036.131-.057c.009 0 .015-.005.025-.005c.037-.011.079-.031.115-.036c.005 0 .027-.011.037-.011c.047-.011.083-.021.129-.027h.005l.141-.031c.009 0 .025 0 .036-.011c.036 0 .073-.011.115-.011h.041c.047 0 .093-.005.151-.005h.12c.037 0 .068 0 .104.005h.016c.073.011.151.021.224.043a2.347 2.347 0 0 1 1.86 2.296zM13.391 1.855h14.573l-3.344 9.864c-.141.027-.276.073-.417.12l-3.52-7.177l-3.532 7.131a3.367 3.367 0 0 0-.437-.099zm6.625 13.098a4.117 4.117 0 0 0-1.251-2.224l1.917-3.869l1.937 3.952a4.151 4.151 0 0 0-1.161 2.141zm-4.641-1.464a.845.845 0 0 1 .131-.025h.025c.037-.011.073-.011.109-.021h.037c.036 0 .068-.011.104-.011h.359c.037 0 .068.011.095.011c.02 0 .025 0 .047.011c.036.011.063.011.099.016c.011 0 .021 0 .041.009l.125.027h.011c.036.011.079.021.115.041c.005 0 .016.005.036.005c.027.011.063.021.095.036c.004 0 .015.011.025.011c.036.021.073.032.109.047h.011a.425.425 0 0 1 .12.068h.011c.036.016.072.041.109.063c.009 0 .009.011.02.011c.037.016.063.047.099.063l.011.011c.109.083.213.176.319.271l.004.005c.417.437.647 1.015.641 1.613c-.099 3.011-4.568 3.011-4.667 0c-.005-1.067.724-2 1.76-2.26zm-9.12-.068a2.336 2.336 0 0 1 0 4.672c-1.285 0-2.333-1.047-2.333-2.333s1.048-2.339 2.333-2.339zm21.552 8.038a4.114 4.114 0 0 1-2.009 2.844c-1.011.583-2.256.771-3.557.952a22.36 22.36 0 0 0-2.188.391c-1.927.475-3.781 1.396-5.579 2.287c-2.296 1.141-4.463 2.213-6.473 2.213a4.873 4.873 0 0 1-2.875-.916c-2.037-1.407-1.937-4.047-1.693-5.495c.219-1.355.839-2.62 1.432-3.833c.043-.073.068-.141.105-.213c.203.072.416.129.64.167c-.355 1.963.645 3.995 2.593 4.995l.349.181l.38-.135c1.62-.579 3.125-1.511 4.448-2.76a12.28 12.28 0 0 0 1.927-2.292a4.157 4.157 0 0 0 4.652-3.057h1.557a4.143 4.143 0 0 0 4.011 3.104c.771 0 1.484-.213 2.093-.573c.24.693.317 1.417.187 2.141z"/>
+					</svg>
+					<svg id="rspec"
+						xmlns="http://www.w3.org/2000/svg" 
+						width="50" 
+						height="50" 
+						viewBox="0 0 512 512"
+					>
+						<path d="m322.384 145.576l68.549 70.284l-17.354 31.67l-119.31 149.246L134.96 251.002l-17.354-35.142l68.549-70.284h136.23zM300.275 36.01L274.6 69.955C398.01 82.03 472.097 207.912 433.042 318.339l19.875 39.53l39.495-2.99c64.934-154.268-38.1-336.945-212.732-353.124l20.595 34.255zM17.586 348.692C-48.537 180.316 80.158-5.433 263.924.755l20.696 34.423l-25.624 33.876C124.323 66.643 31.098 205.172 83.364 328.798l-42.77-11.221l-23.008 31.115zm468.708 19.675l-41.073 3.108l-18.668-37.127c-54.109 124.883-250.588 162.181-335.908 9.787l-44.839-11.764l-22.3 30.16c104.505 213.922 381.574 180.62 462.788 5.836z"/>
+					</svg>
+				</div>
+		</div>
+	</section>	
+	<section id="projects">
+    <h1>PROJECTS</h1>
+      <div class="row">
+        <ul class="project-list">
+          <li class="project">
+            <div class="project-container">
+              <img src="images/beertinder.png" class="project-img" alt="Beer Tinder app">
+              <div class="description">
+                <h3 class="title">Beer Tinder</h3>
+                <h4 class="subtitle">Frontend: React | Backend: Ruby on Rails</h4>
+                <p class="info">
+                  This project is a full-stack, decoupled application that creates profiles for beers and allows a user to see other beer profiles. My cohort partner Tammy Tran and I created a React application for the views in the frontend and a Rails API to handle our data in the backend.
+                </p>
+                <div class="links">
+                  <a href="https://github.com/learn-academy-2023-alpha/cat-tinder-frontend-marilyn-tammy" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="project">
+            <div class="project-container">
+              <img src="images/blurredlimes.png" class="project-img" alt="Blurred Limes app">
+              <div class="description">
+                <h3 class="title">Blurred Limes</h3>
+                <h4 class="subtitle">React in Rails</h4>
+                <p class="info">
+                  This project is a full-stack, monolithic application that allows a user to sign up and track their personal inventory of food items in their kitchen. It has full CRUD functionality and was built with React in Rails by my cohort team TRFM-Radio: Manny Flores, Tammy Tran, Ronnie Maynard, and myself. 
+                </p>
+                <div class="links">
+                  <a href="https://github.com/TRFM-Radio/blurred-limes" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+	</section>
+	<section id="contact">
+		<h1>CONTACT ME</h1>
+    <div class="contact-container">
+      <div class="contact-box">
+        <div class="left">
+          <p>I'd love to <br/>connect with you!</p>
+          <img src="images/silhouette.png">
+        </div>
+        <form action="https://formsubmit.co/marilynremigio@gmail.com" method="POST">
+          <div class="right">
+            <input type="text" name="name" class="field" placeholder="Your Name" required>
+            <input type="email" name="email" class="field" placeholder="Your Email" required>
+            <input type="text" name="phone" class="field" placeholder="Your Phone Number">
+            <textarea class="field" name="text" placeholder="Message" required></textarea>
+            <button type="submit" class="btn">Send</button>
+          </div>
+        </form> 
+      </div>
+    </div>
+	</section>
+	
+	<br/><br/>
+	<a href="#" class="b2t">back to top</a>
+
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+	<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+</html>
