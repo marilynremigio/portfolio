@@ -74,35 +74,25 @@ header {
 .about-container {
   display: flex;
   justify-content: center;
-  padding-top: 60px;
+  padding-top: 106px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 60px;
 }
 
 .colA { 
-  width: 33%;
-  display: flex;
-  justify-content: center;
-}
-
-.colB { 
-  width: 15%; 
+  width: 35%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.colB a {
-  font-size: 30px;
-  color: var(--blk);
-  transition: 0.2s;
-  margin: 0 20px;
-}
-
-.colB a:hover {
-  color: var(--pink);
+.colA img {
+  height: 500px;
 }
 
 .colC { 
-  width: 35%; 
+  width: 40%; 
   display: flex;
   padding: 15px;
   flex-direction: column;
@@ -112,9 +102,26 @@ header {
 }
 
 .colC h1 {
-  font-size: xxx-large;
-  margin-bottom: 0;
-  padding-top: 10px;
+  font-size: 100px;
+  margin: auto;
+  padding: 0px;
+}
+
+.colC-links { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colC-links a {
+  font-size: 30px;
+  color: var(--blk);
+  transition: 0.2s;
+  margin: 0 20px;
+}
+
+.colC-links a:hover {
+  color: var(--pink);
 }
 
 .colC h4 {
